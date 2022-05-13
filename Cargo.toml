@@ -1,0 +1,15 @@
+[package]
+name = "AnotherRustBevySnakeGame"
+version = "1.0.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/JhnW/AnotherRustBevySnakeGame"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.4"
+bevy = "0.7"
+
+[workspace]
+resolver = "2" # Important! wgpu/Bevy needs this!
